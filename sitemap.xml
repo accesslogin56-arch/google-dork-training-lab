@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FAKE TRAINING DATA ONLY -->
+<!-- Safe sitemap for the Google Dork Training Lab. Demo pages only. -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/admin-login-test.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/system-status.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/fake-camera-dashboard.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/sample-config-public.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/readme-not-a-real-backup.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/directory-listing-demo.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/dev-test-environment.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/ci-dashboard-demo.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/demo-report-placeholder.pdf</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/dork-cheat-sheet.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/public-documents-library.html</loc>
+  </url>
+
+  <url>
+    <loc>https://accesslogin56-arch.github.io/google-dork-training-lab/robots.txt</loc>
+  </url>
+
+</urlset>
