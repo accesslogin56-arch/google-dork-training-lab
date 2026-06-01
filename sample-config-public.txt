@@ -1,0 +1,27 @@
+FAKE TRAINING DATA ONLY
+This is a harmless sample config file for Google dork training.
+
+Purpose:
+This file exists so you can practise safe searches such as:
+
+site:accesslogin56-arch.github.io/google-dork-training-lab filetype:txt
+site:accesslogin56-arch.github.io/google-dork-training-lab "sample config"
+site:accesslogin56-arch.github.io/google-dork-training-lab "FAKE TRAINING DATA ONLY"
+
+Example fake settings:
+
+APP_NAME=Google Dork Training Lab
+ENVIRONMENT=demo
+DEBUG_MODE=false
+PUBLIC_DEMO_MODE=true
+
+FAKE_API_ENDPOINT=https://example.local/api/demo
+FAKE_API_KEY=demo-api-key-000000-not-real
+FAKE_DATABASE_HOST=192.0.2.10
+FAKE_DATABASE_NAME=training_lab_demo
+FAKE_DATABASE_USER=demo_user
+FAKE_DATABASE_PASSWORD=not-a-real-password
+
+Security note:
+No real keys, passwords, tokens, systems, databases, users, cameras, or private services exist here.
+All values are fake placeholders for safe training only.
