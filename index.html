@@ -21,7 +21,7 @@
     }
 
     main {
-      max-width: 900px;
+      max-width: 940px;
       margin: 30px auto;
       padding: 0 20px;
     }
@@ -38,6 +38,10 @@
     .warning {
       border-left-color: #f59e0b;
       background: #fffbeb;
+    }
+
+    .safe {
+      border-left-color: #16a34a;
     }
 
     code {
@@ -60,6 +64,29 @@
       font-size: 0.85rem;
       font-weight: bold;
     }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .link-card {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .link-card p {
+      margin-bottom: 0;
+    }
+
+    .search-list p {
+      margin: 10px 0;
+      overflow-x: auto;
+    }
   </style>
 </head>
 <body>
@@ -77,62 +104,133 @@
     <p>
       This site contains only harmless fake pages and fake sample data.
       It is for learning how Google search operators work without touching real systems,
-      exposed cameras, admin panels, private documents, or live services.
+      exposed cameras, admin panels, private documents, live services, or private files.
+    </p>
+    <p>
+      Google indexing something does not mean it is fair game. Only use advanced searches
+      against your own websites, public documents, authorised labs, or systems where you
+      have clear permission.
     </p>
   </div>
 
   <div class="card">
-    <h2>Practice pages</h2>
-    <p>These pages are intentionally named to help practise safe search queries:</p>
-    <ul>
-      <li><a href="admin-login-test.html">Admin Login Test Page</a></li>
-      <li><a href="system-status.html">System Status Demo</a></li>
-      <li><a href="fake-camera-dashboard.html">Fake Camera Dashboard</a></li>
-      <li><a href="sample-config-public.txt">Sample Config Public Text File</a></li>
-      <li><a href="readme-not-a-real-backup.txt">Readme Not A Real Backup</a></li>
-      <li><a href="directory-listing-demo.html">Fake Directory Listing Demo</a></li>
-      <li><a href="dev-test-environment.html">Dev Test Environment Demo</a></li>
-      <li><a href="ci-dashboard-demo.html">CI Dashboard Demo</a></li>
-      <li><a href="demo-report-placeholder.pdf">Demo Report Placeholder PDF</a></li>
-    </ul>
+    <h2>Training pages</h2>
+    <p>These pages are intentionally named to help practise safe search queries.</p>
+
+    <div class="grid">
+      <div class="link-card">
+        <h3><a href="admin-login-test.html">Admin Login Test Page</a></h3>
+        <p>Practise title and URL searches around fake admin/login wording.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="system-status.html">System Status Demo</a></h3>
+        <p>Fake service status page for status and monitoring-style searches.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="fake-camera-dashboard.html">Fake Camera Dashboard</a></h3>
+        <p>Camera dashboard concept with no real feeds or images.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="sample-config-public.txt">Sample Config Public Text File</a></h3>
+        <p>Fake config-style TXT file for safe <code>filetype:txt</code> practice.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="readme-not-a-real-backup.txt">Readme Not A Real Backup</a></h3>
+        <p>Fake backup-themed TXT file for safe backup search practice.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="directory-listing-demo.html">Fake Directory Listing Demo</a></h3>
+        <p>Visual imitation of an “Index of” page, but no real directory listing.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="dev-test-environment.html">Dev Test Environment Demo</a></h3>
+        <p>Fake dev/test environment page with no real system behind it.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="ci-dashboard-demo.html">CI Dashboard Demo</a></h3>
+        <p>Fake build/CI dashboard for safe CI search examples.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="demo-report-placeholder.pdf">Demo Report Placeholder PDF</a></h3>
+        <p>Harmless PDF for practising <code>filetype:pdf</code>.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="public-documents-library.html">Public Documents Library</a></h3>
+        <p>Fake document library for public report and policy-style searches.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="dork-cheat-sheet.html">Google Dork Cheat Sheet</a></h3>
+        <p>Explains the main operators with safe examples.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="safe-search-examples.html">Safe Search Examples</a></h3>
+        <p>Grouped practice searches for this training lab only.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="robots.txt">robots.txt</a></h3>
+        <p>Safe crawler guidance file for learning what robots.txt is.</p>
+      </div>
+
+      <div class="link-card">
+        <h3><a href="sitemap.xml">sitemap.xml</a></h3>
+        <p>Sitemap listing the demo pages for discovery practice.</p>
+      </div>
+    </div>
   </div>
 
   <div class="card">
     <h2>Safe example searches</h2>
-    <p>Once Google indexes this site, try searches like:</p>
+    <p>Once Google indexes this site, try searches like these:</p>
 
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"admin"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"system status"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"camera dashboard"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"index of"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"dev"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"CI Dashboard"</code></p>
+    <div class="search-list">
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab</code></p>
 
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:backup</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:camera</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:test</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"admin"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"system status"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"camera dashboard"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"index of"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"dev"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"CI Dashboard"</code></p>
 
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:txt</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:pdf</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:backup</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:camera</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:test</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:documents</code></p>
 
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "sample config"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "demo-build-main"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "Fake static demo only"</code></p>
-    <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "FAKE TRAINING DATA ONLY"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:txt</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:pdf</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:xml</code></p>
+
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "FAKE TRAINING DATA ONLY"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "sample config"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "demo-build-main"</code></p>
+      <p><code>site:accesslogin56-arch.github.io/google-dork-training-lab "Public Documents Library"</code></p>
+    </div>
   </div>
 
-  <div class="card">
+  <div class="card safe">
     <h2>What this teaches</h2>
-    <p>
-      Google dorks are advanced search queries. They can be useful for research,
-      finding public documents, checking your own website exposure, and learning
-      how search indexing works.
-    </p>
-
     <p>
       This lab safely demonstrates common search ideas such as
       <code>site:</code>, <code>intitle:</code>, <code>inurl:</code>,
-      <code>filetype:</code>, and exact phrase searching.
+      <code>filetype:</code>, exact phrase searching, exclusions, and basic discovery files
+      like <code>robots.txt</code> and <code>sitemap.xml</code>.
+    </p>
+    <p>
+      It is designed for harmless learning, website self-checking, and understanding how
+      search indexing works.
     </p>
   </div>
 
