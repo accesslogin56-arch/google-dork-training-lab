@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Safe Search Examples - Google Dork Training Lab</title>
+  <meta name="description" content="Safe Google dork search examples using only this demo training lab.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .panel {
+      max-width: 960px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-left: 6px solid #14b8a6;
+    }
+
+    .fake {
+      display: inline-block;
+      background: #dcfce7;
+      color: #166534;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    .section {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+
+    code {
+      display: block;
+      background: #e5e7eb;
+      padding: 8px;
+      border-radius: 5px;
+      margin: 8px 0;
+      overflow-x: auto;
+    }
+
+    a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="panel">
+    <span class="fake">FAKE TRAINING DATA ONLY</span>
+
+    <h1>Safe Search Examples</h1>
+
+    <p>
+      These searches are designed to work only against this harmless demo lab.
+      They are examples of how advanced Google search operators can narrow results.
+    </p>
+
+    <div class="section">
+      <h2>Find pages on this lab only</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab</code>
+    </div>
+
+    <div class="section">
+      <h2>Find title matches</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"admin"</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"system status"</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"index of"</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"CI Dashboard"</code>
+    </div>
+
+    <div class="section">
+      <h2>Find URL matches</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:camera</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:backup</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:test</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:documents</code>
+    </div>
+
+    <div class="section">
+      <h2>Find file types</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:txt</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:pdf</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:xml</code>
+    </div>
+
+    <div class="section">
+      <h2>Find exact phrases</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab "FAKE TRAINING DATA ONLY"</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab "sample config"</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab "demo-build-main"</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab "Public Documents Library"</code>
+    </div>
+
+    <div class="section">
+      <h2>Exclude terms</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab -camera</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab "FAKE TRAINING DATA ONLY" -admin</code>
+    </div>
+
+    <div class="section">
+      <h2>Use OR</h2>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab admin OR camera</code>
+      <code>site:accesslogin56-arch.github.io/google-dork-training-lab backup OR config</code>
+    </div>
+
+    <p>
+      Remember: only use advanced search against your own sites, public documents,
+      authorised labs, or systems where you have clear permission.
+    </p>
+
+    <p><a href="index.html">Back to training lab home</a></p>
+  </div>
+
+</body>
+</html>
