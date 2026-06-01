@@ -1,0 +1,26 @@
+# FAKE TRAINING DATA ONLY
+# This robots.txt file is part of a safe Google dork training lab.
+# It does not protect anything sensitive and does not point to real private areas.
+
+User-agent: *
+Allow: /
+
+# Demo-only paths for learning.
+# These pages contain fake training data only.
+
+Allow: /google-dork-training-lab/
+Allow: /google-dork-training-lab/admin-login-test.html
+Allow: /google-dork-training-lab/system-status.html
+Allow: /google-dork-training-lab/fake-camera-dashboard.html
+Allow: /google-dork-training-lab/dev-test-environment.html
+Allow: /google-dork-training-lab/ci-dashboard-demo.html
+Allow: /google-dork-training-lab/public-documents-library.html
+Allow: /google-dork-training-lab/dork-cheat-sheet.html
+Allow: /google-dork-training-lab/demo-report-placeholder.pdf
+
+# Fake examples only:
+# Disallow: /google-dork-training-lab/private-demo-area/
+# Disallow: /google-dork-training-lab/not-real-admin/
+# Disallow: /google-dork-training-lab/fake-backups/
+
+Sitemap: https://accesslogin56-arch.github.io/google-dork-training-lab/sitemap.xml
