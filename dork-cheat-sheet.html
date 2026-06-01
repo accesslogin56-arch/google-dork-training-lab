@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Dork Cheat Sheet - Safe Training Page</title>
+  <meta name="description" content="Safe Google dork cheat sheet explaining common search operators using demo-only examples.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .panel {
+      max-width: 920px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-left: 6px solid #2563eb;
+    }
+
+    .fake {
+      display: inline-block;
+      background: #dcfce7;
+      color: #166534;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 18px;
+    }
+
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 12px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      background: #f9fafb;
+    }
+
+    code {
+      background: #e5e7eb;
+      padding: 3px 6px;
+      border-radius: 5px;
+      white-space: nowrap;
+    }
+
+    .note {
+      background: #fffbeb;
+      border-left: 6px solid #f59e0b;
+      padding: 14px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="panel">
+    <span class="fake">FAKE TRAINING DATA ONLY</span>
+
+    <h1>Google Dork Cheat Sheet</h1>
+
+    <p>
+      Google dorks are advanced search queries that use operators to narrow results.
+      This page explains the basics using only this safe demo lab.
+    </p>
+
+    <table>
+      <tr>
+        <th>Operator</th>
+        <th>What it does</th>
+        <th>Safe example</th>
+      </tr>
+
+      <tr>
+        <td><code>site:</code></td>
+        <td>Limits results to one website or domain.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab</code></td>
+      </tr>
+
+      <tr>
+        <td><code>intitle:</code></td>
+        <td>Finds pages with a word or phrase in the page title.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab intitle:"admin"</code></td>
+      </tr>
+
+      <tr>
+        <td><code>inurl:</code></td>
+        <td>Finds pages where the URL contains a word.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab inurl:camera</code></td>
+      </tr>
+
+      <tr>
+        <td><code>filetype:</code></td>
+        <td>Finds a specific type of file, such as PDF or TXT.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab filetype:pdf</code></td>
+      </tr>
+
+      <tr>
+        <td><code>"exact phrase"</code></td>
+        <td>Finds pages containing the exact phrase inside quotation marks.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab "FAKE TRAINING DATA ONLY"</code></td>
+      </tr>
+
+      <tr>
+        <td><code>-word</code></td>
+        <td>Excludes results containing a word.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab -camera</code></td>
+      </tr>
+
+      <tr>
+        <td><code>OR</code></td>
+        <td>Searches for either one term or another.</td>
+        <td><code>site:accesslogin56-arch.github.io/google-dork-training-lab admin OR camera</code></td>
+      </tr>
+    </table>
+
+    <div class="note">
+      <strong>Safety note:</strong>
+      Only use dorks against your own sites, intentionally vulnerable labs, public documents,
+      or systems where you have permission. Google indexing something does not mean it is fair game.
+    </div>
+
+    <h2>Good uses</h2>
+    <ul>
+      <li>Finding public PDFs and reports</li>
+      <li>Checking what your own website exposes</li>
+      <li>Researching official guidance and documents</li>
+      <li>Learning how search indexing works</li>
+      <li>Practising safely in a fake training lab like this one</li>
+    </ul>
+
+    <p><a href="index.html">Back to training lab home</a></p>
+  </div>
+
+</body>
+</html>
