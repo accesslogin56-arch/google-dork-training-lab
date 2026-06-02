@@ -6,6 +6,10 @@ Live site:
 
 https://accesslogin56-arch.github.io/google-dork-training-lab/
 
+GitHub repository:
+
+https://github.com/accesslogin56-arch/google-dork-training-lab
+
 ## Purpose
 
 This project is a harmless demo site for learning how advanced Google search operators work.
@@ -18,7 +22,7 @@ It is designed to help practise searches such as:
 - filetype:
 - "exact phrase"
 
-The site uses fake pages, fake labels, fake config values, fake dashboards, and fake documents only.
+The site uses fake pages, fake labels, fake config values, fake dashboards, fake documents, and safe training-only examples.
 
 ## Safety note
 
@@ -55,6 +59,8 @@ The lab currently includes:
 - public-documents-library.html
 - dork-cheat-sheet.html
 - safe-search-examples.html
+- indexing-watch-log.html
+- what-not-to-do.html
 - robots.txt
 - sitemap.xml
 - 404.html
@@ -85,6 +91,19 @@ Current project notes:
 - 02/06/2026 - Homepage indexing requested
 - 02/06/2026 - Dork Cheat Sheet indexing requested
 - 02/06/2026 - Custom 404 page added
+- 02/06/2026 - README updated
+- 02/06/2026 - Indexing Watch Log added
+- 02/06/2026 - What Not To Do safety page added
+- 02/06/2026 - Homepage safe-search example formatting improved
+- 02/06/2026 - Sitemap updated to include latest pages
+
+## Version
+
+Current project status:
+
+**v1.0 safe Google dork training lab**
+
+This version includes the main homepage, safety notes, demo target pages, PDF example, robots.txt, sitemap.xml, custom 404 page, Search Console setup notes, indexing watch log, and ethical-use guidance.
 
 ## Hosting
 
